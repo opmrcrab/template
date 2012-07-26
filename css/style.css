@@ -5,6 +5,7 @@
  * Changes to original:
  * 	- Remove all comments. See original css for comments
  *  - Changed headings to px based font sizes
+ *  - Changing p, heading and other margins to being just on bottom 15px standard
  *  - Added a {cursor: pointer;} so that when an A is used for pure JS (with no href) - you get the hand
  *  - Adding nav li {margin-bottom: 0px;}
  *  - And also adding li {margin-bottom: 5px;} and li:last-child {margin-bottom: 0px;}
@@ -25,7 +26,7 @@ a {cursor: pointer;}
 a:focus { outline: thin dotted;}
 a:active,a:hover { outline: 0;}
 
-h1, h2, h3, h4, h5, h6 {margin: 0 0 10px;}
+h1, h2, h3, h4, h5, h6 {margin: 0 0 15px;}
 h1 {font-size: 22px;}
 h2 {font-size: 20px;}
 h3 {font-size: 16px;}
@@ -39,7 +40,7 @@ b,strong { font-weight: bold;}
 blockquote { margin: 1em 40px;}
 dfn { font-style: italic;}
 mark { background: #ff0; color: #000;}
-p,pre { margin: 1em 0;}
+p,pre { margin: 0 0 15px}
 code,kbd,pre,samp { font-family: monospace,serif; _font-family: 'courier new',monospace; font-size: 1em;}
 pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
 q { quotes: none;}
@@ -49,7 +50,7 @@ sub,sup { font-size: 75%; line-height: 0; position: relative; vertical-align: ba
 sup { top: -0.5em;}
 sub { bottom: -0.25em;}
 
-dl,menu,ol,ul { margin: 1em 0;}
+dl,menu,ol,ul { margin: 0 0 15px;}
 dd { margin: 0 0 0 40px;}
 menu,ol,ul { padding: 0 0 0 40px;}
 nav ul,nav ol { list-style: none; list-style-image: none;}
