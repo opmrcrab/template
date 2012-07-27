@@ -9,6 +9,7 @@
  *  - Added a {cursor: pointer;} so that when an A is used for pure JS (with no href) - you get the hand
  *  - Adding nav li {margin-bottom: 0px;}
  *  - And also adding li {margin-bottom: 5px;} and li:last-child {margin-bottom: 0px;}
+ *  - nav ol & ul now have no margin
  *
  * If you update this - please make sure you reflect tha changes in https://github.com/bozboz/foundation.less/blob/master/normalize.less
  */
@@ -53,7 +54,7 @@ sub { bottom: -0.25em;}
 dl,menu,ol,ul { margin: 0 0 15px;}
 dd { margin: 0 0 0 40px;}
 menu,ol,ul { padding: 0 0 0 40px;}
-nav ul,nav ol { list-style: none; list-style-image: none;}
+nav ul,nav ol { list-style: none; margin: 0; padding: 0;}
 nav li {margin-bottom: 0px;}
 li {margin-bottom: 5px;}
 li:last-child {margin-bottom: 0px;}
